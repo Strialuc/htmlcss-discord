@@ -38,6 +38,13 @@ a {
     padding: 10px 20px;
 }
 
+.style-a-blue {
+
+    border-radius: 50%;
+    background-color:blue;
+    padding: 10px 20px;
+}
+
 
 
 .bottom-border {
@@ -46,34 +53,6 @@ a {
 
 .bg-gray {
     background-color: lightgray;
-}
-
-.bg-marine {
-    background-color: aqua;
-}
-
-.bg-orange {
-    background-color: orange;
-}
-
-.bg-deepblue {
-    background-color: blue;
-}
-
-.bg-pinkviolet {
-    background-color: palevioletred;
-}
-
-.bg-pink {
-    background-color: pink;
-}
-
-.bg-lightblue {
-    background-color: lightblue;
-}
-
-.bg-green {
-    background-color: green;
 }
 
 .bg-black {
@@ -131,7 +110,7 @@ a {
     height: 300px;
 }
 
-.content-section-box-violet {
+.content-section-box-hero {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -154,25 +133,26 @@ a {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    height: 300px;
 }
 
 .content-section-similar {
     margin: 0 auto;
     display: flex;
-    width: 50%;
-    height: 80%;
+    flex-basis: 80%;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .paragrafo1 {
-    height: 100%;
-    width: 60%;
+    height: 50%;
+    width: 58%;
 
 }
 
 .paragrafo2 {
     height: 100%;
-    width: 40%;
+    width: 38%;
 }
 
 .bg-gray .content-section-similar {
@@ -181,7 +161,7 @@ a {
 
 /* last section main*/
 
-.section-box-green {
+.section-box-big-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,10 +169,22 @@ a {
     height: 800px;
 }
 
-.content-section-box-green {
-    background-color: green;
+.content-section-box-big-img {
     width: 70%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+    padding-bottom: 20px;
 }
 
 /* Footer*/
@@ -213,11 +205,27 @@ a {
     display: flex;
     width: 70%;
     height: 90%;
+    padding-top: 50px;
 }
 
 .colonna-1 {
     height: 100%;
     width: 30%;
+}
+
+.selezione-lingua{
+    display: flex;
+    height: 20px;
+    padding-top: 8px;
+}
+
+.social{
+    display: flex;
+    height: 30px;
+    width: 40%;
+    padding-top: 20px;
+    justify-content: space-around;
+    margin:0 30px 0 0;
 }
 
 .colonne {
