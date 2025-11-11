@@ -24,23 +24,27 @@ a {
     color: black;
 }
 
+.c-viola{
+    color:violet;
+}
+
 .style-a-w {
 
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: white;
     padding: 10px 20px;
 }
 
 .style-a-b {
 
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: black;
     padding: 10px 20px;
 }
 
 .style-a-blue {
 
-    border-radius: 50%;
+    border-radius: 20px;
     background-color:blue;
     padding: 10px 20px;
 }
